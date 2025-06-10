@@ -1,5 +1,5 @@
 import NewsHeader from '@/components/sections/NewsHeader';
-import Home from '@/components/sections/home/Home';
+import Home from '@/components/sections/home/HomeWrapper';
 import CryptoBasicFooter from '@/components/sections/CryptoBasicFooter';
 import { Metadata } from 'next';
 
