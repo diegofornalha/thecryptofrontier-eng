@@ -12,7 +12,7 @@ O projeto utiliza a API do Sanity para enviar e gerenciar conteúdo. A comunica�
 from sanity import Client
 
 client = Client(
-    project_id=SANITY_PROJECT_ID,
+    project_id=NEXT_PUBLIC_SANITY_PROJECT_ID,
     dataset=SANITY_DATASET,
     token=SANITY_API_TOKEN,
     api_version="2024-01-01",
@@ -21,7 +21,7 @@ client = Client(
 ```
 
 ### Variáveis de Ambiente Necessárias
-- `SANITY_PROJECT_ID`: ID do projeto no Sanity
+- `NEXT_PUBLIC_SANITY_PROJECT_ID`: ID do projeto no Sanity
 - `SANITY_DATASET`: Dataset (geralmente "production")
 - `SANITY_API_TOKEN`: Token de autenticação com permissões de escrita
 
